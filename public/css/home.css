@@ -1,0 +1,47 @@
+/* Header */
+.home_header_section_barra{
+  margin-top: 15px;
+
+}
+.home_header_section_p{ 
+margin-top: 20px;
+margin-bottom: 20px;
+text-align: center;
+font-size: 12px;
+
+}
+.home_header_section_ul_datos{
+    margin-top: 20px;
+margin-bottom: 0px;
+font-size: 12px;
+}
+ 
+.home_header_section_ul_menu{
+    font-size: 12px;
+
+}
+.home_header_section_bars{
+    background-color: var(--colorCeleste);
+    width: 40px;
+    height: 40px;
+    margin: 20px 120px ;
+    display: inline-block;
+    font-size: 1.7rem;
+    border-radius: 5px ;
+    text-align: center;
+    }
+ 
+    .home_footer {
+        background-color:white;
+        text-align: center;
+        margin: 0px;
+        padding: 1rem;
+      
+        
+    }
+
+    .home_footer div{
+        margin-top: 30px;
+        margin-bottom:10px ;
+
+    }
