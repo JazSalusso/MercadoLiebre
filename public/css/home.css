@@ -1,0 +1,177 @@
+/* header */
+.home_header{
+    background-color: var(--colorAmarillo);
+}
+.home_header_section_barra{
+  margin-top: 15px;
+
+}
+.home_header_section_p{ 
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+    font-size: 12px;
+    
+    }
+    .home_header_section_ul_datos{
+        display: none;
+      
+    }
+     
+    .home_header_section_ul_menu{
+        display: none;
+       
+    
+    }
+
+.home_header_section_bars{
+    background-color: var(--colorCeleste);
+    width: 40px;
+    height: 40px;
+    margin: 20px 120px ;
+    display: inline-block;
+    font-size: 1.7rem;
+    border-radius: 5px ;
+    text-align: center;
+    }
+
+/* main */
+
+    .home_main_verdes{
+        color: var(--colorVerde);
+    }
+    .home_main div i {
+        color: var(--colorVerde);
+    }
+    .home_main_div_products_h3{
+        margin-left: 10px;
+       
+    }
+    .home_main_div_ofertas h3{
+    margin-left: 10px;
+    }
+
+
+    .home_main_section_banner{
+        display: block;
+        margin-bottom: 0px;
+       
+      }
+      .home_main_section_banner img{
+          width:100%;
+          height: 80px;
+         
+      }
+.home_main{
+     background-color: #ebebeb;
+}
+.home_main h4{
+    margin: 15px; 
+}
+
+ .home_main_div_products img{
+ 
+text-align: center;
+display: flex;
+margin: 10px  15px 0px 15px;
+
+justify-content: space-around;
+
+ }
+ .home_main_div_ofertas img{
+    text-align: center;
+    display: flex;
+    margin: 10px  15px 0px 15px;
+
+    justify-content: space-around;
+     }
+ .home_main_div_products div{
+    width:300px;
+    height: auto;
+    text-align:left;
+    background-color: white;
+    border-top: 05px solid #ebebeb;
+    margin: 0 15px 2px 15px ;
+  
+
+ }
+ .home_main_div_ofertas div{
+    width:300px;
+    height: auto;
+    text-align:left;
+    background-color: white;
+    border-top: 05px solid #ebebeb;
+    margin: 0 15px 2px 15px;
+    
+    
+ }
+  footer 
+    .home_footer {
+        background-color:white;
+        text-align: center;
+        margin: 0px;
+        padding: 1rem;
+      
+        
+    }
+
+    .home_footer div{
+        margin-top: 30px;
+        margin-bottom:10px ;
+
+    }
+
+    @media (min-width:371px){
+/* header  */
+       .home_header_section{
+         height: 300px;
+        }
+        .home_header_section_p{ 
+            margin-top: 0px;
+            margin-bottom: 20px;
+            text-align: center;
+            font-size: 12px;
+            }
+            
+        .home_header_section_ul_datos{
+            display: block;
+        margin-top: 20px;
+        margin-bottom: 0px;
+        font-size: 12px;
+        }
+
+         .home_header_section_bars{
+            display: none;
+         }
+         .home_header_section_ul_menu{
+            display: block;
+            font-size: 12px;
+        
+        } 
+/*  main  */
+        .home_main_section_banner img{
+            width:100%;
+            height: auto;
+           }
+         .home_main_div_products{
+            margin: 10px  20px 0px 20px;
+            justify-content: space-around;
+            }
+        .home_main_div_ofertas{
+            margin: 10px  20px 0px 20px;
+    justify-content: space-around;
+}  
+             
+           
+          
+    }
+    @media (min-width:769px){
+
+        .home_main_section_banner img{
+            width:100%;
+            height:auto;
+           }
+          
+
+
+}
