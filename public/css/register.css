@@ -1,0 +1,37 @@
+.main_register form {
+    display: flex;
+    flex-direction: column;
+}
+
+.main_register{
+    margin: 1rem;
+}
+
+.main_register input[type="text"], input[type="email"], input[type="date"] ,.main_register button{
+   margin-top:1.5rem ;
+      padding: 0.8rem;
+      border-radius: 0.5rem;
+    border: none;
+  
+}
+
+.main_register form [type="text"], input[type="email"], input[type="date"] :focus {
+
+    border-color: transparent;
+
+    outline: none;
+}
+
+
+.main_register label{
+    margin-top: 1.5rem;
+}
+
+.main_register form button{
+               background-color: #0945A3;
+    color: white;
+}
+
+.main_register form button:hover{
+    background-color:  #0022AA;
+}

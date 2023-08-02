@@ -1,0 +1,245 @@
+
+/* * Header * */
+.home_header {
+    background-color: var(--colorAmarillo);
+  }
+  .home_header_section_p {
+    margin: 20px;
+    text-align: center;
+    font-size: 12px;
+  }
+
+  .home_header_section_img {
+    width: 50%;
+    margin-top: 20px;
+      }
+
+
+  .home_header_section_busqueda {
+   
+     display: flex;
+     justify-content: space-around;
+    flex-direction: row;
+  
+  }
+  
+  .home_header_section_busqueda_form input{
+    margin-top: 20px;
+    background-color: white;
+    width: 120px;
+    height: auto;
+    padding:5px 0px 5px 0px;
+    border: none;
+    border-radius:0.3rem;
+ 
+  }
+  .home_header_section_busqueda_form {
+position: relative;
+display: inline-block;
+
+  }
+  .home_header_section_busqueda_form button{
+position: absolute;
+background-color: transparent;
+border:none;
+top: 1px;
+right: 0;
+bottom: 0px;
+width: 30px;
+  }
+  
+  
+   .home_header_section_ul_datos,
+  .home_header_section_ul_menu {
+    display: none;
+  }
+  
+  .home_header_section_bars {
+    background-color: var(--colorCeleste);
+    width: 40px;
+    height: 40px;
+    margin: 20px 140px;
+    display: inline-block;
+    font-size: 1.7rem;
+    border-radius: 5px;
+    text-align: center;
+  }
+  
+/*   * Main * */
+  
+  .home_main_verdes,
+  .home_main div i {
+    color: var(--colorVerde);
+  }
+  
+  /* .home_main_article_products h3
+  {
+    margin-top:2rem;
+  } */
+  
+  .home_main_section_banner {
+    display: block;
+    margin-bottom: 0px;
+  }
+  
+  .home_main_section_banner img {
+    width: 100%;
+    height: auto;
+  }
+  
+  
+  .home_main h4 {
+    margin: 15px;
+  }
+  .home_main_div_products_h3{
+    margin-left: 15px;
+  }
+  .home_main_article_tarjeta img,
+  .home_main_article_oferta_tarjeta img {
+    width: 250px;
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+  }
+
+  .home_main_article_tarjetas_general,
+  .home_main_article_tarjetas_ofertas_general{
+    display: flex;
+    flex-wrap: wrap;
+    gap:0px 30px;
+    max-width: 80%;
+  }
+  .home_main_article_tarjeta,
+  .home_main_article_oferta_tarjeta{
+    display: inline-block;
+    background-color: white;
+    margin: 1rem;
+    padding: 15px;
+    position: relative;
+    padding-bottom: 2rem;
+   width:275px;
+    box-shadow: 0px 0px 10px rgb(100, 100, 100);
+  }
+
+.home_main_article_tarjeta_descripcion{
+padding-top: 2rem;
+}
+  
+.home_main_article_tarjeta_descripcion div{
+    display: flex;
+   margin-top: 1rem;
+    
+}
+.home_main_article_tarjeta_descripcion i{
+    border-radius: 2rem;
+    border: solid 2px var(--colorVerde);
+    padding: 15px 12px 15px 12px;
+    position: absolute;
+    right:31px;
+    bottom: 66px;
+    background-color: white;
+
+}
+  
+ 
+  
+/*   * Footer * */
+  .home_footer {
+    background-color: white;
+    text-align: center;
+    margin: 0;
+    padding: 1rem;
+  }
+  
+  .home_footer div {
+    margin-top: 30px;
+    margin-bottom: 10px;
+  }
+  
+@media(min-width:370px) {
+.home_header{
+    height:auto;
+}
+    .home_header_section_cont{
+display: flex;
+flex-direction: row;
+width: 100%;
+align-items: center;
+    }
+.home_header_section_busqueda{
+width: 60%;
+}
+
+.home_header_section_busqueda_form{
+    height: 62px;
+}
+.home_header_section_p{
+    width: 40%;
+}
+.home_header_section_img {
+    margin-left: 0px;
+      }
+
+.home_header_section_bars{
+    display: none;
+}
+.home_header_section_p_2{
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.home_header_section_ul_menu,
+.home_header_section_ul_datos{
+    display: flex;
+    flex-direction: row;
+    font-size: 12px;
+    
+}
+
+.home_header_section_ul_menu li ,
+.home_header_section_ul_datos li{
+   padding:8px;
+}
+
+.home_main_article_tarjetas_general,
+.home_main_article_tarjetas_ofertas_general{
+  display: flex;
+  flex-wrap: wrap;
+  gap:0px 30px;
+  max-width: 100%;
+}
+.home_main_article_tarjetas,
+.home_main_article_ofertas_tarjetas{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+  gap:0px 30px;
+}
+}
+@media(min-width:780px){
+
+  .home_main_section_banner{
+    height: auto;
+  }
+
+  .home_header_section_ul_menu,
+.home_header_section_ul_datos{
+    display: flex;
+    flex-direction: row;
+    font-size: 12px;
+    
+}
+
+.home_header_section_ul_menu li ,
+.home_header_section_ul_datos li{
+   padding:8px;
+}
+
+
+
+
+}
